@@ -1,9 +1,11 @@
 package rs.ac.bg.fon.nprog.mvnbiblioteka2022.biblioteka.interfejs;
 
+import java.security.interfaces.RSAKey;
 import java.util.List;
 
 
 import rs.ac.bg.fon.nprog.mvnbiblioteka2022.biblioteka.Autor;
+import rs.ac.bg.fon.nprog.mvnbiblioteka2022.biblioteka.Biblioteka;
 import rs.ac.bg.fon.nprog.mvnbiblioteka2022.biblioteka.Knjiga;
 
 /**
@@ -24,7 +26,7 @@ public interface BibliotekaInterfejs {
 	 * @throws java.lang.IllegalArgumentException ako uneta knjiga vec postoji u biblioteci
 	 * 
 	 * @see <a href = "https://github.com">GutHub sajt</a>
-	 * @see biblioteka.Knjiga
+	 * @see rs.ac.bg.fon.nprog.mvnbiblioteka2022.biblioteka.Knjiga
 	 */
 	public void dodajKnjigu(Knjiga knjiga);
 	
